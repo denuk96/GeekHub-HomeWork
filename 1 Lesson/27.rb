@@ -1,5 +1,13 @@
 # Дан целочисленный массив. Преобразовать его, вставив после каждого положительного элемента нулевой элемент.
 
 
-sample = [2, 123, 4, 6, -12, 21]
-s = sample.find_all { |elem| elem > 0 }.join("0, ")
+print sample = [1, 2, 5, -2, 5, -12, 11]
+sample.map! do |x|
+  if x > 0
+	[x, 0]
+  else
+	x
+  end
+end
+puts
+print sample.flatten
