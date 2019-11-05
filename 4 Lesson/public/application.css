@@ -1,0 +1,102 @@
+body {
+	text-align: center;
+}
+
+h1	{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+form {
+	margin-bottom: 40px;
+}
+
+ul li {
+	display: block;
+	padding: 0;
+	margin:  0;
+	display: inline-block;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 70px; 
+    max-height: 70px;
+    margin-right: 600px;
+}
+
+nav {
+	background: #fedb00;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.menu {
+	display: block;
+	padding: 0;
+	margin:  0;
+	display: inline-block;
+
+}
+
+
+.menu__item a {
+	font-size:30px;
+	font-weight: 700;
+	color: #000;
+	margin-left: 40px;	
+	transition: all 0.3s ease;
+
+}
+
+.menu__item a:hover {
+	text-decoration: none;
+	color: #ff4800;
+}
+
+.li  {
+	
+	
+	padding: 0;
+	margin:  0;
+	display: none;
+	
+
+}
+table {
+	margin:auto;
+	margin-bottom: 10px;
+	font-size: 20px
+}
+
+.petname {
+	font-size: 50px;
+	color: #ff4800;
+}
+.status {
+	font-size:30px;
+	margin-bottom: 20px;
+}
+
+.buttoms {
+	margin-top: 30px
+}
+.happens {
+	font-size: 20px;
+}
+.died {
+	font-size: 30px;
+}
+.emoj {
+	font-size: 200px;
+}

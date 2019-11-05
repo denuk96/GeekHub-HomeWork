@@ -1,0 +1,61 @@
+<h1><div class="petname"> <%= $cat_name %></div></h1>
+<div class="status">Your pet status</div>
+<table>
+  <tbody>
+    <tr>
+      <th>Health:</th>
+      <td><%= $list_item_1 %></td>
+    </tr>
+    <tr>
+      <th>Hearty</th>
+      <td><%= $list_item_2 %></td>      
+    </tr>
+    <tr>
+      <th>Waterfull</th>
+      <td><%= $list_item_5 %></td>      
+    </tr>
+        <tr>
+      <th>Peppiness</th>
+      <td><%= $list_item_3 %></td>      
+    </tr>
+        <tr>
+      <th>Morale</th>
+      <td><%= $list_item_6 %></td>     
+    </tr>
+        <tr>
+      <th>Killing Nature</th>
+      <td><%= $list_item_4 %></td>      
+    </tr>
+        <tr>
+      <th>Purity</th>
+      <td><%= $list_item_7 %></td>      
+    </tr>
+  </tbody>
+</table>
+  <div class="status">What happened?</div>
+    <div class="happens">
+      <div><%= $p1 %></div>
+      <div><%= $p2 %></div>
+      <div><%= $p3 %></div>
+    </div>
+<div class="buttoms">
+  <form action="/status" method="post">
+ 	  <button name="feed" class="btn btn-warning btn-lg">Feed</button>
+    <button name="drink" class="btn btn-warning btn-lg">Drink</button>
+ 	  <button name="play" class="btn btn-warning btn-lg">Play</button>
+ 	  <button name="sleep" class="btn btn-warning btn-lg">Sleep</button>
+ 	  <button name="hunt" class="btn btn-warning btn-lg">Hunt</button>
+ 	  <button name="walk" class="btn btn-warning btn-lg">Walk</button>
+ 	  <button name="wash" class="btn btn-warning btn-lg">Wash</button>
+ 	  <button name="petCat" class="btn btn-warning btn-lg">Pet Cat</button>
+  	<button name="date" class="btn btn-warning btn-lg">Date</button>
+ 	  <button name="wait" class="btn btn-warning btn-lg">Wait</button>
+ 	  <button name="secondLife" class="btn btn-danger btn-lg">Second Life</button>
+</div>
+<div class="buttoms">
+  <form action="/status" method="post">
+    <button name="save" class="btn btn-success btn-lg btn-block">save</button>
+  </form>
+  </form>
+</div>
+

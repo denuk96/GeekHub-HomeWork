@@ -1,0 +1,12 @@
+---
+- pet_name: asd
+  health: 75
+  hearty: 20
+  waterfull: 4
+  peppiness: 48
+  morale: 46
+  killingNature: 38
+  purity: 56
+  passageOfTime: 12
+  chance: 0
+  dead: false

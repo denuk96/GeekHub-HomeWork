@@ -1,0 +1,12 @@
+  pet_name: bob
+  health: 100
+  hearty: 50
+  waterfull: 50
+  peppiness: 50
+  morale: 50
+  killingNature: 50
+  purity: 100
+  passageOfTime: 1
+  chance: 0
+  dead: false
+id: *pet_name
