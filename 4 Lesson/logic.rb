@@ -1,15 +1,15 @@
 def save_to_yaml
 	last_save = [ "pet_name" => $cat_name, 
-							  "health" => $health,
-						    "hearty" => $hearty,
-						    "waterfull" => $waterfull,
-						    "peppiness" => $peppiness,
-						    "morale" => $morale,
-						    "killingNature" => $killingNature,
-						    "purity" => $purity,
-						    "passageOfTime" => $passageOfTime,
-						    "chance" => $chance,
-						    "dead" => $dead ]
+				  "health" => $health,
+				  "hearty" => $hearty,
+				  "waterfull" => $waterfull,
+				  "peppiness" => $peppiness,
+				  "morale" => $morale,
+				  "killingNature" => $killingNature,
+				  "purity" => $purity,
+				  "passageOfTime" => $passageOfTime,
+				  "chance" => $chance,
+				  "dead" => $dead ]
 	File.open("lastSave.yaml", "w") { |file| file.write(last_save.to_yaml) }	
 end
 

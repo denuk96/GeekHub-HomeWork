@@ -27,7 +27,6 @@ post '/create' do
 end 
 
 post '/status' do
-
 	if params[:feed]
 		feed 
 	end
@@ -71,7 +70,6 @@ post '/status' do
 	else 
 		erb :lose
 	end
-
 end
 
 get '/about' do
